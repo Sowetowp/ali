@@ -1,0 +1,154 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: content-box;
+}
+.logo{
+    width: 190px;
+}
+.d1{
+    display: flex;
+    padding: 35px;
+}
+.d1 select{
+    margin-left: 30px;
+    width: 135px;
+    height: 28px;
+    border: solid rgb(187, 186, 186);
+    border-width: 0.1px;
+    border-radius: 3px;
+}
+.back{
+    height: 100vh;
+    object-fit: cover;
+    object-position: -490px 0px;
+    width: 100%;
+}
+.lab{
+    display: flex;
+    justify-content: space-between;
+}
+.pp{
+    margin-top: 8%;
+    font-weight: 700;
+    font-size: 13px;
+    color: rgb(83, 83, 83);
+}
+.ppp{
+    margin-top: 13px;
+    font-weight: 700;
+    font-size: 13px;
+    color: rgb(83, 83, 83);
+}
+.input{
+    width: 97%;
+    padding: 5px;
+    border: solid rgb(181, 179, 179);
+    border-width: 0.1px;
+}
+.myform{
+    background-color: transparent;
+    margin-top: 4%;
+    position: absolute;
+    margin-left: 59vw;
+}
+.myform form{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 370px;
+    box-shadow: 0px 0px 5px rgb(197, 196, 196);
+}
+.aa{
+    font-size: 14px;
+    color: rgb(0, 179, 255);
+    text-decoration: none;
+    margin-top: 13px;
+}
+.check{
+    margin-top: 10px;
+    display: flex;
+}
+.check p{
+    margin-left: 8px;
+    font-weight: 700;
+    font-size: 13px;
+    color: rgb(83, 83, 83);
+}
+.btn{
+    width: 97%;
+    padding: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: rgb(254, 124, 18);
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+.btn:active{
+    cursor: progress;
+}
+.bor{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: solid rgb(181, 179, 179);
+    border-width: 0.1px;
+}
+.soci{
+    display: flex;
+    margin-top: 20px;
+}
+.soci img{
+    width: 30px;
+    margin-left: 10px;
+}
+.soci p{
+    color: gray;
+    margin-top: 5px;
+}
+.foot{
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: center;
+    background-color: rgb(245, 244, 244);
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(107, 106, 106);
+    padding-top: 10px;
+    margin-top: -5px;
+    padding-bottom: 10px;
+}
+.foot p{
+    margin-top: 10px;
+}
+.foot a{
+    cursor: pointer;
+}
+.fimg{
+    display: flex;
+    justify-content: center;
+}
+.spa{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+@media screen and (max-width: 800px){
+    .back{
+        object-fit: contain;
+        object-position: 0px 0px;
+    }
+    /* .myform{
+        margin-left: 12vw;
+    } */
+}
+.res{
+    text-align: center;
+    color: red;
+    background-color: rgba(248, 197, 197, 0.491);
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
